@@ -1,0 +1,291 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding-left: 85px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1280px;
+    max-height: 1280px;
+}
+
+/* Rectangle966 Section */
+.Rectangle966 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%; /* Adjust width for header */
+    padding: 20px;
+}
+
+span {
+    font: italic normal 900 24px/29px 'Raleway', sans-serif;
+    color: #121212;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav p {
+    font-size: 16px;
+    color: #121212;
+    cursor: pointer;
+}
+
+/* Enjoy Section Styling */
+.enjoy {
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.enjoy h1 {
+    top: 236px;
+    left: 85px;
+    width: 445px;
+    height: 128px;
+    /* UI Properties */
+    color: var(--unnamed-color-121212);
+    text-align: left;
+    font: normal normal bold 48px/64px Roboto;
+    letter-spacing: 0px;
+    color: #121212;
+    opacity: 1;
+    font-size: 48px;
+    font-weight: bold;
+    color: #121212;
+    margin-top: 150px;
+    
+}
+
+.enjoy h2 {
+    top: 388px;
+    left: 85px;
+    width: 445px;
+    height: 72px;
+    color: var(--unnamed-color-0000009a);
+    text-align: left;
+    font: normal normal normal 24px/36px Roboto;
+    letter-spacing: 0px;
+    color: #0000009A;
+    opacity: 1;
+    
+    font-size: 24px;
+    color: #0000009a;
+    margin-top: 24px;
+
+}
+
+.enjoy h3 {
+    background-color: #0E8A00;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 48px;
+    width: 160px;
+    height: 56px;
+}
+.enjoy{
+    display: flex;
+}
+
+/* Photo1 Styling (First Image) */
+.photo1 img {
+    top: 0px;
+    left: 655px;
+    width: 625px;
+    height: 800px;
+    /* UI Properties */
+    background: transparent url('img/tom-crew-5HRCkrSs9Dk-unsplash.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: auto;
+    display: block;
+    margin-left: 50px;
+}
+
+/* Layer2 Styling */
+.layer2 , .layer4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.photo2 img , .photo4 img{
+    width: 180%;
+    max-width: 540px;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
+}
+.layer2_text , .layer4_text{
+    margin-left: 300px;
+}
+
+
+.layer2_text h1 ,.layer4_text h1{
+    /* Layout Properties */
+    top: 993px;
+    left: 750px;
+    width: 144px;
+    height: 28px;
+    /* UI Properties */
+    color: var(--unnamed-color-121212);
+    text-align: left;
+    font: normal normal bold 24px/28px Roboto;
+    letter-spacing: 0px;
+    color: #121212;
+    opacity: 1;
+}
+.layer2_text h2 , .layer4_text h2{
+    color: #0000009A;
+
+    top: 1037px;
+
+}
+.layer2_text h3 , .layer4_text h3{
+    top: 1565px;
+    left: 448px;
+    height: 19px;
+    /* UI Properties */
+    color: var(--unnamed-color-0e8a00);
+    text-align: left;
+    font: normal normal bold 16px/19px Roboto;
+    letter-spacing: 0px;
+    color: #0E8A00;
+    text-transform: capitalize;
+    opacity: 1;
+
+}
+.photo3 img {
+    /* Layout Properties */
+    top: 1304px;
+    left: 655px;
+    width: 540px;
+    height: 400px;
+    /* UI Properties */
+    background: transparent url('img/anne-nygard-sHyerRuFqT4-unsplash.png') 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    padding-left: 125px;
+    padding-top: 32px;
+}
+.layer3{
+    display: flex;
+}
+.layer3_text h1{
+    /* Layout Properties */
+    top: 1425px;
+    left: 387px;
+    width: 143px;
+    height: 28px;
+    /* UI Properties */
+    color: var(--unnamed-color-121212);
+    text-align: right;
+    font: normal normal bold 24px/28px Roboto;
+    letter-spacing: 0px;
+    color: #121212;
+    opacity: 1;
+    padding-top: 153px;
+}
+
+.layer3_text h2{
+    /* Layout Properties */
+    top: 1469px;
+    left: 180px;
+    width: 350px;
+    height: 72px;
+    /* UI Properties */
+    color: var(--unnamed-color-0000009a);
+    text-align: right;
+    font: normal normal normal 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #0000009A;
+    opacity: 1;
+    padding-top: 16px;
+}
+.layer3_text h3{
+    top: 1565px;
+    left: 448px;
+    height: 19px;
+    /* UI Properties */
+    text-align: right;
+    font: normal normal bold 16px/19px Roboto;
+    color: #0E8A00;
+}
+
+  .layer5 {
+    display: flex;
+    align-items: center; /* 垂直對齊 */
+    justify-content: space-between; /* 左右分佈 */
+    padding: 20px;
+    height: 100vh; /* 佔滿整個視窗高度 */
+    background-image: url('../week6/index-5.jpg');
+    background-size: cover; /* 讓圖片覆蓋整個區塊 */
+    background-position: center; /* 居中顯示圖片 */
+    background-repeat: no-repeat; /* 防止圖片重複 */
+    width: 1280px; /* 設定容器寬度 */
+    height: 400px; /* 設定容器高度 */
+    overflow: hidden; /* 隱藏超出部分 */
+    position: relative;
+    margin-top: 25px;
+
+
+  }
+  
+
+  .left-section {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .quote {
+    font-size: 2rem;
+    width: 350px;    
+    line-height: 1.5;
+    color: aliceblue;
+    margin-left: 85px;
+    margin-top: 150px;
+  }
+  
+
+  .right-section {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    margin-left: 505px;
+  }
+  
+  .role {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .links a {
+    color: green;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
